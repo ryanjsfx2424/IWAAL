@@ -18,19 +18,20 @@ import keccak256 from 'keccak256'
 import MerkleTree from 'merkletreejs'
 import Web3 from 'web3'
 import Web3EthContract from 'web3-eth-contract'
-import contractABI from './abi_v3p2.json';
+import contractABI from './abi_v4.json';
 import wlt from './TEAM.json';
 import wlp from './WL.json';
 import desktopVideo from './desktop.mp4'
 import mobileVideo from './mobile.mp4'
 
 // require('dotenv').config()
-const CHAIN_ID = 5 // GOERLI
-const CHAIN_NAME = "GOERLI TESTNET"
-// const CHAIN_ID = 0x1 // ETH
-// const CHAIN_NAME = "ETH MAINNET"
-const contractAddress = "0xf401B5a716519cf35B8066aB8eAA692f66849E91"
-const ETHERSCAN_LINK = "https://goerli.etherscan.io/address/" + contractAddress
+//const CHAIN_ID = 5 // GOERLI
+//const CHAIN_NAME = "GOERLI TESTNET"
+//const contractAddress = "0xf401B5a716519cf35B8066aB8eAA692f66849E91"
+const CHAIN_ID = 0x1 // ETH
+const CHAIN_NAME = "ETH MAINNET"
+const contractAddress = "0x0A9AFc08Ab9488b0b58d371B88dD413E191793b3"
+const ETHERSCAN_LINK = "https://etherscan.io/address/" + contractAddress
 
 function App() {
     const [mintAmount,       setMintAmount]         = useState(1)
