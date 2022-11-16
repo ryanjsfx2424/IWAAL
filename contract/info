@@ -1,0 +1,28 @@
+v1 (goerli) [verified on etherscan!]
+0x0A9AFc08Ab9488b0b58d371B88dD413E191793b3
+
+v2 (goerli) [verified on etherscan!]
+0xDB3086EaFB1c70e0b56683E666945d483Ab1673C
+
+v3 (goerli) [verified on etherscan!]
+0xF9365F08EB8Ee3E95D31801b0F48D051e3DdFf64
+
+v3.2 (goerli) [verified on etherscan!]
+0xf401B5a716519cf35B8066aB8eAA692f66849E91
+
+metadata cid:
+ipfs://bafybeiaw5ylhrnczpoky5o57knx24vp4ulr6ad433lttrfkazehqobb7sa
+
+Testing:
+ - ABE on WL (firefox)
+ - IWAAL on Team (firefox)
+ - Brave names are self-documenting
+ - iPhone metamask, main == WL
+ - iPhone metamask, account 5 == d677 == TEAM
+
+(just 3 wallets testing)
+team hex root:
+0xbe1c35879a528fb06f2a4ee01761713e9db92425f01efa69f0ed4c6b89bc756d
+
+wl hex root:
+0x64a811e1c3a3be4c14d705ec41f7cc02520127a794fc814481540c1e3a1636be
